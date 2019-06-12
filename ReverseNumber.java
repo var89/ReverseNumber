@@ -1,4 +1,3 @@
-package tasks;
 import java.util.ArrayList;
 
 public class ReverseNumber {
@@ -32,7 +31,7 @@ public class ReverseNumber {
     int reverse2(int n){
         int q = 0;
         int p = powerOf10(n);
-     //   System.out.println(p);
+     //   System.out.println(p); 
         int ans = 0;
         while(n != 0){
             ans += ((n % 10)*Math.pow(10, p--));
